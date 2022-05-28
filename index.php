@@ -234,8 +234,6 @@ $PercentAlone = $PercentAlone/100+1;
 $Nacenka = $Nacenka/100+1;
 $NDS = $NDS/100+1;
 
-echo 'thios conmmit git text';
-
 if ($_FILES['ioFileMy']['error'] == 0) {
 //    echo 'Начало процесса в  <span style="color: red;">' . date("H:i:s",time()+21600) . '</span>';
     $ioFileMy = $_FILES['ioFileMy']['tmp_name'] . "_OAS.tmp";
